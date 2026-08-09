@@ -6,3 +6,5 @@
 
 node_modules/
 .next/
+# Large academic PDFs
+/public/pdfs/
