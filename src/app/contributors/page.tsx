@@ -49,6 +49,11 @@ const contributors = [
     image: '/assets/images/contributors/tanishkapatole.jpeg',
     position: '50% 10%',
   },
+  {
+    name: 'Harshada Chopade',
+    image: '/assets/images/contributors/harshadachopade.jpeg',
+    position: '50% 20%',
+  },
 ];
 
 export default function ContributorsPage() {
