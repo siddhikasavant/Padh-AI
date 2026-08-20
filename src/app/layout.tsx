@@ -18,23 +18,29 @@ export const viewport: Viewport = {
 
 export const metadata: Metadata = {
   metadataBase: new URL(
-    process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000'
+    process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000"
   ),
 
-  title: 'PadhAI — Learn Smarter. Search Less.',
+  title: "PadhAI — Learn Smarter. Search Less.",
 
   description:
-    'The premium study resource platform for MSBTE Diploma AI & ML students. Find notes, papers, practicals, and projects — all in one place.',
+    "The premium study resource platform for MSBTE Diploma AI & ML students.",
+
+  verification: {
+    google: "9mzhl2-z6hx2Ht38FoCY_Jsdd2MHJIFsxZcXw0BH7Sc",
+  },
+
+  icons: {
+    icon: "/icon.png",
+  },
 
   openGraph: {
-    title: 'PadhAI — Learn Smarter',
-
+    title: "PadhAI — Learn Smarter",
     description:
-      'Premium study resources for MSBTE Diploma AIML students.',
-
+      "Premium study resources for MSBTE Diploma AIML students.",
     images: [
       {
-        url: '/assets/images/app_logo.png',
+        url: "/assets/images/app_logo.png",
         width: 1200,
         height: 630,
       },
